@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+	<!-- Estructura basica de aplicacion JqueryMobile
+	con phonegap para app mobile. O solo JqueryMobile
+	para webapp -->
+	<head>
+		<title>Noticias SN</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.0.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.0.min.css"/>
+		<!-- tema flat experimental -->
+
+		<link rel="stylesheet" href="css/app.css"/>
+
+		
+	</head>
+	<!-- Cuerpo -->
+	<body>
+		<!-- Pagina -->
+		<div data-role='page'>
+			<div data-role='header' class="cabeza" data-position="fixed" data-tap-toggle="false">
+				<h1 style="text-align:left; margin-left:10px;">Noticias SN</h1>
+			</div>
+			<div data-role='content'>
+				<div id="norte"></div>
+				<div id="informante"></div>
+			</div>
+		</div>
+		<div data-role='page' id="noticia">
+			<div data-role='header' class="cabeza" data-position="fixed" data-tap-toggle="false">
+				<h1 style="text-align:left; margin-left:10px;">Noticias SN</h1>
+			</div>
+			<div data-role='content'>
+				<div id="noticiaLoca"></div>
+			</div>
+		</div>
+		<script id="tplNoticiaInformante" type="text/template">
+		{{#.}}
+		<div class="desinformante not" data-idNoticia="{{id}}">
+		<h2>{{titulo}}</h2>
+		<p>{{resumen}}</p>
+		</div>
+		{{/.}}
+		</script>
+		<script id="tplNoticiaElNorte" type="text/template">
+		{{#.}}
+		<div class="sur" data-idNoticia="{{id}}">
+		<h2>{{titulo}}</h2>
+		<p>{{resumen}}</p>
+		</div>
+		{{/.}}
+		</script>
+		<script id="tplNoticiaLoca" type="text/template">
+		{{#.}}
+		<div class="desinformante">
+		<h2>{{titulo}}</h2>
+		<p>{{resumen}}</p>
+		</div>
+		{{/.}}
+		</script>
+		<!-- // <script type="text/javascript" src="phonegap.js"></script> -->
+		<script src="js/lib/mustache.js"></script>
+		<script src="js/lib/fastclick.js"></script>	
+		<script src="js/lib/jquery-1.10.2.min.js"></script>
+		<script src="js/lib/jquery.mobile-1.4.0.min.js"></script>
+		<script src="js/app/app.js"></script>
+	</body>
+	</html>

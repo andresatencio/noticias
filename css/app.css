@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+body,
+.ui-shadow,
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a,
+.ui-body-b,
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b,
+.ui-bar-c,
+.ui-body-c,
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c,
+.ui-bar-c,
+.ui-body-d,
+.ui-btn-up-d,
+.ui-btn-hover-d,
+.ui-btn-down-d,
+.ui-bar-d,
+.ui-body-e,
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e,
+.ui-bar-e,
+.ui-body-f,
+.ui-btn-up-f,
+.ui-btn-hover-f,
+.ui-btn-down-f,
+.ui-bar-f,
+.ui-body-g,
+.ui-btn-up-g,
+.ui-btn-hover-g,
+.ui-btn-down-g,
+.ui-bar-g,
+.ui-overlay-shadow,
+.ui-shadow,
+.ui-btn-active,
+.ui-body-a,
+.ui-bar-a {
+ text-shadow: none !important;
+ box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ font-family: Roboto, Arial, Helvetica, Geneva, sans-serif !important;
+ /*font-weight: 100 !important;*/
+}
+.cabeza{
+	font-weight: 300 !important;
+	color: #FFFFFF !important;
+	background-color: #e74c3c !important;
+	border-bottom: solid 3px #c0392b !important;
+	/*text-shadow: 0 0px 0 #eee !important;*/
+	text-shadow: 0pt 0px 0pt rgb(0, 0, 0) !important; 
+}
+.verde {
+	background-color: #27ae60 !important;
+	color: #ffffff !important;
+}
+.azul {
+	background-color: #2980b9 !important;
+	color: #ffffff !important;
+}
+.rojo {
+	background-color: #c0392b !important;
+	color: #ffffff !important;
+}
+
+.desinformante {
+  background: #FFF;
+  border-bottom: solid 3px #c0392b !important;
+  box-shadow: 0px 2px 3px 0px #AAA;
+  padding: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 0px;
+  margin-right: 7.5px;
+  margin-bottom: 15px;
+  margin-left: 7.5px;
+  overflow: hidden;
+}
+
+.sur {
+  background: #FFF;
+  border-bottom: solid 3px #2980b9 !important;
+  box-shadow: 0px 2px 3px 0px #AAA;
+  padding: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 0px;
+  margin-right: 7.5px;
+  margin-bottom: 15px;
+  margin-left: 7.5px;
+  overflow: hidden;
+}
