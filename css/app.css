@@ -49,9 +49,12 @@ body,
 	font-weight: 300 !important;
 	color: #FFFFFF !important;
 	background-color: #e74c3c !important;
-	border-bottom: solid 3px #c0392b !important;
+	border-bottom: solid 3px #e74c3c !important;
 	/*text-shadow: 0 0px 0 #eee !important;*/
 	text-shadow: 0pt 0px 0pt rgb(0, 0, 0) !important; 
+	-webkit-box-shadow: 0px 1px 5px #000000;
+	-moz-box-shadow: 0px 1px 5px #000000;
+	box-shadow: 0px 1px 5px #000000;
 }
 .verde {
 	background-color: #27ae60 !important;
